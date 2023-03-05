@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ED-COM FAQs PAGE</title>
+	<link rel="stylesheet" href="faqs_css.css"></link>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div id="navbar1">
+				<a href="index.html"><img id="logo" src="images/ed-com_text.png"></a>
+			</div>
+			
+			<div id="navbar-options">
+				<a class="nav-opt" href="index.html">HOME</a>
+				<a class="nav-opt" href="aboutus_html.html">ABOUT US</a>
+				<a class="nav-opt" href="contact_html.html">CONTACT US</a>
+                <a href="login_html.html">
+					<button  id="buton" class="signIn-button">ORGANIZER LOG IN</button>&nbsp;
+				</a>
+				<a href="#">
+					<button id="buton" class="signIn-button">COMMUNITY LOG IN</button>
+
+				</a>
+				<button id="click" onclick="visible()">
+        			<img id="clickable" src="icons/menu-icon.png"></img>
+        		</button>
+			</div>
+		</div>
+		<div class="bod">
+			<div id="vis">
+		      <div id="ham">
+				<a href="index.html">HOME</a><br>
+				<a href="aboutus_html.html">ABOUT US</a><br>
+				<a href="contact_html.html">CONTACT US</a><br><br>
+                <a href="login_html.html">
+					<button  id="buton" class="signIn-button">ORGANIZER LOG IN</button>&nbsp;
+				</a>
+				<a href="#">
+					<button id="buton" class="signIn-button">COMMUNITY LOG IN</button>
+
+				</a>
+		      </div>
+		    </div>
+			
+		</div>
+		<div id="FAQ-box">
+			<h2 style="margin: 0; padding: 0; display: flex; justify-content: center;">Frequently Asked Questions</h2><br><br>
+
+			<div class="FAQ">
+				<div class="FAQ-name">
+					<h3>FAQ NAME</h3>
+					<button class="FAQ-btn" onclick="FAQvisible()"><img class="FAQ-arrow" src="icons/down_arrow.png"></img></button>
+				</div>
+				<div class="FAQ-details" style="display: none; background-color: white;">
+					<p class="FAQ-p">FAQ details are here</p>
+				</div>
+			</div>
+			
+			
+			<h2 style="margin: 0; padding: 0; display: flex; justify-content: center;">MORE FAQs TO BE LISTED SOON!!!</h2><br><br>
+		</div>
+		<div class="footer">
+			<div id="footor-main"> 
+				<a href="#"><img id="logo" src="images/ed-com_text.png"></a>
+				<div id="social-icons">
+					<a href="#"><img class="icons" src="icons/facebook-icon.svg"></a>
+					<a href="https://instagram.com/ed2comofficial?igshid=YmMyMTA2M2Y="><img class="icons" src="icons/instagram-icon.svg"></a>
+					<a href="#"><img class="icons" src="icons/twitter-icon.svg"></a>
+					<a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=GTvVlcSMTtfzgFwzRpvLTCGcMQdDKnJLrKQfPrqxKsrPwNpJQPnCCfHvwJltNGkKnvGCWjfTKkwJK" target="_blank"><img class="icons" src="icons/send-icon.png"></a>
+				</div>
+			</div>
+			<p>Educational Community & Competition System</p>
+			<p><a id="in-p" href="contact_html.html">Contact</a>|&nbsp&nbsp<a id="in-p" href="aboutus_html.html">About</a>|&nbsp&nbsp<a id="in-p" href="faqs_html.html">FAQs</a></p>
+		</div>
+	</div>
+	<script src="faqs_js.js"></script>
+</body>
+</html>
